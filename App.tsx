@@ -113,7 +113,6 @@ export default function App(): JSX.Element {
           label="Reset 12:00"
           onPress={() => setGameTime(12 * 60)}
         />
-
         <ControlButton label="Start Shot" onPress={startShot} />
         <ControlButton label="Stop Shot" onPress={stopShot} />
         <ControlButton label="Reset 24" onPress={() => setShotTime(24)} />
@@ -128,7 +127,6 @@ const Team = ({ name, score, setScore }: TeamProps): JSX.Element => (
   <View style={styles.team}>
     <Text style={styles.teamName}>{name}</Text>
     <Text style={styles.score}>{score}</Text>
-
     <ControlButton label="+1" onPress={() => setScore(score + 1)} />
     <ControlButton
       label="-1"
