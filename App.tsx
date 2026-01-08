@@ -5,6 +5,7 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Text>Hello, world!</Text>
+      <Text>Hello, react native!</Text>
     </View>
   );
 };
