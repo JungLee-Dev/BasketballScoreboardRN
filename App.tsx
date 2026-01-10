@@ -25,6 +25,7 @@ const LotsOfGreetings = () => {
       <Greeting name="Rexxar" />
       <Greeting name="Jaina" />
       <Greeting name="Valeera" />
+      <Greeting name="Jordan" />
     </View>
   );
 };
