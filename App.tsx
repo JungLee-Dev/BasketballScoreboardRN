@@ -1,33 +1,43 @@
-import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import React, { Component } from 'react';
+import { StyleSheet, TouchableOpacity, Text, View } from 'react-native';
+
+class App extends Component {
+  state = {
+    count: 0,
+  };
+
+  onPress = () => {
+    this.setState({
+      count: this.state.count + 1,
+    });
+  };
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <TouchableOpacity style={styles.button} onPress={this.onPress}>
+          <Text>Click me</Text>
+        </TouchableOpacity>
+        <View>
+          <Text>You clicked {this.state.count} times</Text>
+        </View>
+      </View>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
-  center: {
+  container: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#DDDDDD',
+    padding: 10,
+    marginBottom: 10,
   },
 });
 
-type GreetingProps = {
-  name: string;
-};
-
-const Greeting = (props: GreetingProps) => {
-  return (
-    <View style={styles.center}>
-      <Text>Hello {props.name}!</Text>
-    </View>
-  );
-};
-
-const LotsOfGreetings = () => {
-  return (
-    <View style={[styles.center, { top: 50 }]}>
-      <Greeting name="Rexxar" />
-      <Greeting name="Jaina" />
-      <Greeting name="Valeera" />
-      <Greeting name="Jordan" />
-    </View>
-  );
-};
-
-export default LotsOfGreetings;
+export default App;
