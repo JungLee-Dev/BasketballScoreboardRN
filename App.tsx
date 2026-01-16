@@ -33,6 +33,9 @@ class App extends Component {
         <View>
           <Text>Do you want to click?</Text>
         </View>
+        <View>
+          <Text>I know you want to click this</Text>
+        </View>
       </View>
     );
   }
