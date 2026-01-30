@@ -40,6 +40,15 @@ class App extends Component {
           <Text>But you can't</Text>
         </View>
         <View>
+          <Text>Still want to click?</Text>
+        </View>
+        <View>
+          <Text>Okay fine</Text>
+        </View>
+        <View>
+          <Text>Click this!!!</Text>
+        </View>
+        <View>
           <Text>Sorry about that</Text>
         </View>
       </View>
