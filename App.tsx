@@ -51,9 +51,6 @@ class App extends Component {
         <View>
           <Text>Sorry about that</Text>
         </View>
-        <View>
-          <Text>Please understand</Text>
-        </View>
       </View>
     );
   }
