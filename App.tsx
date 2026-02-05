@@ -39,12 +39,6 @@ class App extends Component {
         <View>
           <Text>But you can't</Text>
         </View>
-        <View>
-          <Text>Still want to click?</Text>
-        </View>
-        <View>
-          <Text>Okay fine</Text>
-        </View>
       </View>
     );
   }
