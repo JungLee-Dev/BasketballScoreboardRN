@@ -30,9 +30,6 @@ class App extends Component {
         <View>
           <Text>Stop click me please</Text>
         </View>
-        <View>
-          <Text>Do you want to click?</Text>
-        </View>
       </View>
     );
   }
