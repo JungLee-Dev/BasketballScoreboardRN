@@ -24,9 +24,6 @@ class App extends Component {
         <View>
           <Text>Don't click me</Text>
         </View>
-        <View>
-          <Text>Don't click me please</Text>
-        </View>
       </View>
     );
   }
