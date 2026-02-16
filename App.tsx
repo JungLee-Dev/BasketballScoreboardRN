@@ -20,7 +20,7 @@ class App extends Component {
         </TouchableOpacity>
         <View>
           <Text>You clicked {this.state.count} times</Text>
-        </View,
+        </View>
       </View>
     );
   }
