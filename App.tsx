@@ -24,6 +24,9 @@ class App extends Component {
         <TouchableOpacity style={styles.button} onPress={this.onPress}>
           <Text>Click me2</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={this.onPress}>
+          <Text>Click me3</Text>
+        </TouchableOpacity>
       </View>
     );
   }
