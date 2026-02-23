@@ -22,9 +22,6 @@ class App extends Component {
           <Text>You clicked {this.state.count} times</Text>
         </View>
         <TouchableOpacity style={styles.button} onPress={this.onPress}>
-          <Text>Click me2</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={this.onPress}>
           <Text>Click me3</Text>
         </TouchableOpacity>
       </View>
