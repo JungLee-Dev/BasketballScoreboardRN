@@ -25,7 +25,10 @@ class App extends Component {
           <Text>You clicked {this.state.count} times2</Text>
         </View>
         <View>
-          <Text>You clicked {this.state.count} times2</Text>
+          <Text>You clicked {this.state.count} times3</Text>
+        </View>
+        <View>
+          <Text>You clicked {this.state.count} times3</Text>
         </View>
       </View>
     );
