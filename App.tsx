@@ -24,6 +24,9 @@ class App extends Component {
         <View>
           <Text>You clicked {this.state.count} times2</Text>
         </View>
+        <View>
+          <Text>You clicked {this.state.count} times3</Text>
+        </View>
       </View>
     );
   }
